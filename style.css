@@ -1,0 +1,46 @@
+/* Style tambahan untuk mempercantik */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar .nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: #0d6efd;
+}
+
+.hero {
+  min-height: 90vh;
+  background-color: #f8f9fa;
+}
+
+.hero-text h3 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.hero-img {
+  max-width: 80%;
+}
+
+footer h5 {
+  margin-bottom: 1rem;
+}
+
+footer a:hover {
+  color: #0d6efd !important;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
